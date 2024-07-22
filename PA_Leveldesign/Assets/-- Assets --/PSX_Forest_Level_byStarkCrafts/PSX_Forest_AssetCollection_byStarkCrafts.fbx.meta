@@ -3,7 +3,77 @@ guid: b7ebbc46090081a4a98f4fad34d66fc9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Bark2_128px
+    second: {fileID: 2800000, guid: ac81deefbb62ff045ae3bc748d20c139, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Bark3_128px
+    second: {fileID: 2800000, guid: 2aa55652acb7f3b46aec50aba49213c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Bark5_128px
+    second: {fileID: 2800000, guid: 539b9976c1b684740bd492a1faf047ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Bark6_128px
+    second: {fileID: 2800000, guid: 78bb15f403f050a4eb4738aa9c19b3b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Bolder_128px
+    second: {fileID: 2800000, guid: 16bc0d1a8b18cb5469ef7aa2d051fc99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Dandelion_64px
+    second: {fileID: 2800000, guid: a717c6a7200870147a0058d33db723bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_Grass_128px
+    second: {fileID: 2800000, guid: f982cdabce841a64ab77e5a443d76364, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_PINECone_64px
+    second: {fileID: 2800000, guid: ac5b890759acd104f8bea860833023d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_TreeCrown1_128px
+    second: {fileID: 2800000, guid: 15ee57ad3b0acf449af106aeef594f27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_TreeCrown2_128px
+    second: {fileID: 2800000, guid: 9d81845a97d558047b4132505782ba12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_TreeCrown3_Tex_128px
+    second: {fileID: 2800000, guid: c4b27d5566c30c349ad74ee5417179d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_TreeCrown4_Tex_128px
+    second: {fileID: 2800000, guid: 48339c57bba6f1e4faed95c99d1fd2f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_TreeEnd_64px
+    second: {fileID: 2800000, guid: cb31681b5f8e18942bea1615f187b3f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PSX_TreeInside_128px
+    second: {fileID: 2800000, guid: 00e07499b07f8274091d0131e6b9cd9a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
