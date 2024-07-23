@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Teleport : MonoBehaviour
 {
     public GameObject pressE;
+    public GameObject noKey;
     public bool _hasKey;
     private bool _inRange;
 
@@ -14,6 +15,7 @@ public class Teleport : MonoBehaviour
     void Start()
     {
         _hasKey = false;
+        noKey.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,6 +24,11 @@ public class Teleport : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && _inRange && _hasKey)
         {
             SceneManager.LoadScene("Outside");
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && _inRange && _hasKey == false);
+        {
+            noKey.gameObject.SetActive(true);
         }
     }
     private void OnTriggerEnter(Collider other)
