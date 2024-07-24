@@ -35,6 +35,7 @@ public class CollectItem : MonoBehaviour
             gameObject.SetActive(false);
             _key.SetActive(false);
             keySprite.gameObject.SetActive(true);
+            _teleport._hasNoKey = false;
         }
     }
 
