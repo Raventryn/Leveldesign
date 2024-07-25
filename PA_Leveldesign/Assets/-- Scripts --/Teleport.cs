@@ -8,9 +8,13 @@ public class Teleport : MonoBehaviour
 {
     public GameObject pressE;
     public GameObject noKey;
+    public AnimationClip fadeToBlack;
+    public Animator _fadeToBlackAnimator;
+    public GameObject _imageBlack;
     public bool _hasKey;
     public bool _hasNoKey;
     private bool _inRange;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +29,7 @@ public class Teleport : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && _inRange && _hasKey)
         {
-            SceneManager.LoadScene("Outside");
+            StartCoroutine(WaitForFade());
         }
 
         if (Input.GetKeyDown(KeyCode.E) && _inRange && _hasKey == false && _hasNoKey == true)
@@ -47,6 +51,15 @@ public class Teleport : MonoBehaviour
         pressE.gameObject.SetActive(false);
         noKey.gameObject.SetActive(false);
         // Start the coroutine to hide the image and then disable it after
+    }
+
+    IEnumerator WaitForFade()
+    {
+        _fadeToBlackAnimator.SetTrigger("FadeAway");
+
+        yield return new WaitForSeconds(fadeToBlack.length);
+
+        SceneManager.LoadScene("Outside");
     }
 }
 
