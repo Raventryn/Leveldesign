@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4161841, g: 0.4229695, b: 0.42316747, a: 1}
+  m_IndirectSpecularColor: {r: 0.41618407, g: 0.4229695, b: 0.42316747, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -24837,8 +24837,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1779011909}
   - {fileID: 1559630200}
+  - {fileID: 1779011909}
   - {fileID: 543450652143921804}
   - {fileID: 543450652587057976}
   - {fileID: 543450652554659341}
@@ -25356,7 +25356,7 @@ GameObject:
   - component: {fileID: 1559630202}
   - component: {fileID: 1559630201}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: -- Text --
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31804,7 +31804,7 @@ GameObject:
   - component: {fileID: 1707715428}
   - component: {fileID: 1707715427}
   m_Layer: 8
-  m_Name: PlayerCapsule
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45010,8 +45010,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.029112369, y: 0.006999221, z: 0.008489133}
-  m_Center: {x: -0.00598511, y: 0.0049833716, z: -0.0052128113}
+  m_Size: {x: 0.029112367, y: 0.01687727, z: 0.013459407}
+  m_Center: {x: -0.0059851115, y: 0.0050130454, z: -0.007698015}
 --- !u!114 &3469287837030929807
 MonoBehaviour:
   m_ObjectHideFlags: 0

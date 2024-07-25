@@ -8971,12 +8971,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429910124}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.02, y: 5.98, z: -10.71}
+  m_LocalRotation: {x: -0, y: 0.100155696, z: -0, w: 0.9949718}
+  m_LocalPosition: {x: 13.202387, y: -6.4814563, z: -13.479096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1971991821}
+  m_Father: {fileID: 1659551474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &429910127
 BoxCollider:
@@ -9634,12 +9634,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460566787}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.100155696, z: 0, w: 0.9949718}
+  m_LocalPosition: {x: -17.298363, y: 0.67, z: -17.293585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1971991821}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &461962602
 PrefabInstance:
@@ -11858,12 +11858,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563928198}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.76, y: 0, z: 1.15}
+  m_LocalRotation: {x: -0, y: 0.100155696, z: -0, w: 0.9949718}
+  m_LocalPosition: {x: 30.049612, y: -12.461456, z: -4.8027515}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1971991821}
+  m_Father: {fileID: 1659551474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &563928200
 MonoBehaviour:
@@ -19523,12 +19523,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705319394}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.16441028, z: -0, w: 0.9863921}
-  m_LocalPosition: {x: -18.42, y: 10.478, z: -4.073}
+  m_LocalRotation: {x: -0, y: -0.0647908, z: -0, w: 0.9978989}
+  m_LocalPosition: {x: 5.3137546, y: -1.9834566, z: -5.1017914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1971991821}
+  m_Father: {fileID: 1659551474}
   m_LocalEulerAnglesHint: {x: 0, y: -18.926, z: 0}
 --- !u!114 &705319396
 MonoBehaviour:
@@ -25095,7 +25095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mom? Where am I now? Didn't I just go through a chruch door?
+  m_text: Mom? Where am I now? Didn't I just go through a church door?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -34533,7 +34533,7 @@ GameObject:
   - component: {fileID: 1452564091}
   - component: {fileID: 1452564092}
   m_Layer: 0
-  m_Name: Grab
+  m_Name: Grave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38752,8 +38752,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1452564089}
   - {fileID: 1619451944}
+  - {fileID: 1452564089}
+  - {fileID: 563928199}
+  - {fileID: 429910125}
+  - {fileID: 705319395}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1664885035
@@ -44965,9 +44968,7 @@ Transform:
   - {fileID: 8218045}
   - {fileID: 270273728}
   - {fileID: 1205465604}
-  - {fileID: 563928199}
-  - {fileID: 429910125}
-  - {fileID: 705319395}
+  - {fileID: 460566790}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 11.496, z: 0}
 --- !u!4 &1972208486 stripped
@@ -47776,8 +47777,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Maybe I should rest here for a bit, I feel so tired. \nMaybe mother will
-    come and pick me up soon"
+  m_text: Maybe I should rest here for a bit, I feel so tired. Maybe mother will
+    come and pick me up soon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -47840,7 +47841,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -570.9319, y: 0, z: -413.6371, w: 0}
+  m_margin: {x: -657.2192, y: 0, z: -344.65552, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -49282,4 +49283,3 @@ SceneRoots:
   - {fileID: 1971991821}
   - {fileID: 2045971444}
   - {fileID: 1659551474}
-  - {fileID: 460566790}
