@@ -6,6 +6,8 @@ public class CollectItem : MonoBehaviour
 {
     public GameObject pressE;
 
+    public GameObject pickUp;
+
     public GameObject keySprite;
 
     private GameObject _key;
@@ -22,6 +24,7 @@ public class CollectItem : MonoBehaviour
         _teleport = GameObject.Find("Teleport_Trigger").GetComponent<Teleport>();
         _key = GameObject.Find("Key");
         pressE.gameObject.SetActive(false);
+        pickUp.gameObject.SetActive(false);
         keySprite.gameObject.SetActive(false);
     }
 
@@ -30,7 +33,7 @@ public class CollectItem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && _inRange)
         {
-            pressE.gameObject.SetActive(false);
+            pickUp.gameObject.SetActive(false);
             _teleport._hasKey = true;
             gameObject.SetActive(false);
             _key.SetActive(false);
@@ -42,7 +45,7 @@ public class CollectItem : MonoBehaviour
     // On Trigger Enter: enable the 'press E' text and set inRange to true
     private void OnTriggerEnter(Collider other)
     {
-        pressE.gameObject.SetActive(true);
+        pickUp.gameObject.SetActive(true);
         _inRange = true;
     }
 
@@ -50,7 +53,7 @@ public class CollectItem : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         _inRange = false;
-        pressE.gameObject.SetActive(false);
+        pickUp.gameObject.SetActive(false);
         // Start the coroutine to hide the image and then disable it after
     }
 }
