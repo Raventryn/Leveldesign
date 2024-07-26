@@ -17016,7 +17016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 340.9, y: -490}
+  m_AnchoredPosition: {x: 192.43, y: -490}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923110529
@@ -17039,7 +17039,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Something about this church feels so warm and welcoming.
+  m_text: 'These church bells sound so comforting, like they''re trying to pull me
+    in '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -17102,7 +17103,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -639.0286, y: 0, z: -348.91553, w: 0}
+  m_margin: {x: -688.44257, y: 0, z: -405.8136, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26509,7 +26510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Sebastian - '
+  m_text: '"Sebastian - Have you ever heard the tragedy of Darth Plagueis the wise?"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -26572,7 +26573,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -231.30286, y: 0, z: -336.38696, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26602,7 +26603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -486.37}
+  m_AnchoredPosition: {x: 4, y: -445.76}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1632421997
@@ -40667,7 +40668,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -485}
+  m_AnchoredPosition: {x: 220.46, y: -485}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938920071
@@ -40690,7 +40691,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Letizia - '
+  m_text: '"Letizia - Huhn waschen"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -42682,8 +42683,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9323263, y: 2.0861185, z: 5.565285}
-  m_Center: {x: 0.12902248, y: -0.54305923, z: 0.23052894}
+  m_Size: {x: 4.3735976, y: 2.0861185, z: 5.565285}
+  m_Center: {x: -0.5916136, y: -0.54305923, z: 0.23052882}
 --- !u!1 &2077935249
 GameObject:
   m_ObjectHideFlags: 0
