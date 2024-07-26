@@ -6624,7 +6624,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Sascha - Finally dead on the outside too\r\"\n"
+  m_text: '"Sascha - Finally dead on the outside too"
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -6717,7 +6719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.94, y: -485}
+  m_AnchoredPosition: {x: 117.5, y: -485}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &528787938 stripped
@@ -17016,7 +17018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.43, y: -490}
+  m_AnchoredPosition: {x: 170.75, y: -490}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923110529
@@ -26510,7 +26512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Sebastian - Have you ever heard the tragedy of Darth Plagueis the wise?"'
+  m_text: '"Sebastian - Ironic. He could save others from death, but not himself!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -26573,7 +26575,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -231.30286, y: 0, z: -336.38696, w: 0}
+  m_margin: {x: -469.7837, y: 0, z: -639.9144, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26603,7 +26605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -445.76}
+  m_AnchoredPosition: {x: -39.1, y: -486.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1632421997
@@ -43445,7 +43447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -567.9, y: -479}
+  m_AnchoredPosition: {x: -558.8, y: -479}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2131033716
