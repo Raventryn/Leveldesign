@@ -8,6 +8,9 @@ public class TeleportChurch : MonoBehaviour
 {
     public GameObject pressE;
     private bool _inRange;
+    public AnimationClip fadeToBlack;
+    public Animator _fadeToBlackAnimator;
+    public GameObject _imageBlack;
 
     private void Start()
     {
@@ -19,7 +22,7 @@ public class TeleportChurch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && _inRange)
         {
-            SceneManager.LoadScene("Grave");
+            StartCoroutine(WaitForFade());
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -33,5 +36,14 @@ public class TeleportChurch : MonoBehaviour
         _inRange = false;
         pressE.gameObject.SetActive(false);
         // Start the coroutine to hide the image and then disable it after
+    }
+
+    IEnumerator WaitForFade()
+    {
+        _fadeToBlackAnimator.SetTrigger("FadeAway");
+
+        yield return new WaitForSeconds(fadeToBlack.length);
+
+        SceneManager.LoadScene("Grave");
     }
 }
