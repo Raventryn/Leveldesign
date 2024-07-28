@@ -23965,7 +23965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Something about this place feels so warm and comfortable
+  m_text: Something about this place feels so warm and comfortable.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
@@ -40334,8 +40334,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.009308177, y: 0.008575176, z: 0.119300194}
-  m_Center: {x: -0.00019151685, y: -0.0031442516, z: 0.058583576}
+  m_Size: {x: 0.009308177, y: 0.006691529, z: 0.119300194}
+  m_Center: {x: -0.0001915225, y: -0.0022024312, z: 0.058583576}
 --- !u!114 &1452564092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43803,7 +43803,7 @@ GameObject:
   - component: {fileID: 1619451942}
   - component: {fileID: 1619451941}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: -- Text --
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54045,7 +54045,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Maybe I should rest here for a bit, I feel so tired. Maybe mother will
-    come and pick me up soon
+    come and pick me up soon.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
   m_sharedMaterial: {fileID: -1554423292917133766, guid: 326ac3b31920cb54a941637403e2638a, type: 2}
